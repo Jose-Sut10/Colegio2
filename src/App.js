@@ -1,10 +1,10 @@
 import './App.css';
 import './reset.css';
-import Home from './components/home/home';
+import Preincripcion from './components/preinscripcion/preinscripcion';
 
 function App() {
   return (
-      <Home/>
+    <Preincripcion/>
   );
 }
 
