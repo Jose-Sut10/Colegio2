@@ -1,0 +1,51 @@
+.formularioInscripcion{
+    padding: 1.2rem;
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 25%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.formularioInscripcion h2{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.formularioInscripcion a{
+    padding: .8rem;
+    background-color: #0050FF;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+}
+
+.datosInput{
+    display: grid;
+    gap: .5rem;
+    width: 100%;
+}
+
+.datosInput label{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.datosInput label::after{
+    content: '*';
+    margin-left: 4px;
+    color: red;
+}
+
+.datosInput input, select{
+    width: 100%;
+    padding: .5rem;
+    border-radius: 10px;
+}
