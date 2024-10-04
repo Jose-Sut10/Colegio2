@@ -1,0 +1,7 @@
+.containerCarrusel{
+    width: 100%;
+    height: 12rem;
+    background-image: url('/public/img/clase.jpg');
+    background-size: cover;
+    background-position: center;
+}
