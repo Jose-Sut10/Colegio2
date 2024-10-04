@@ -1,9 +1,13 @@
-import Header from "./header/heaer";
+import Header from "./header/header";
+import Menu from "./main/menu/menu";
+import Modal from "./main/menu/modal";
 
 const Home = ()=>{
-    return (
-        <Header/>
-    );
+    return <div className="App">
+            <Modal/>
+            <Menu/>
+            <Header/>
+        </div>
 }
 
 export default Home;
