@@ -2,6 +2,7 @@ import Carreras from "./carreras/carreras";
 import Carrusel from "./carrusel/carrusel";
 import './main.css'
 import MisionVision from "./misionVision/info";
+import Ubicacion from "./ubicacion/ubicacion";
 
 const Main = ({carreras})=>{
     return <main className="contenido">
@@ -9,6 +10,7 @@ const Main = ({carreras})=>{
         <section className="container">
             <Carreras carreras={carreras}/>
             <MisionVision/>
+            <Ubicacion/>
         </section>
     </main>
 }

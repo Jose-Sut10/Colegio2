@@ -1,3 +1,4 @@
+import Footer from "./footer/footer";
 import Header from "./header/header";
 import Main from "./main/main";
 import Menu from "./main/menu/menu";
@@ -18,6 +19,7 @@ const Home = ()=>{
             <Menu/>
             <Header/>
             <Main carreras={carreras}/>
+            <Footer/>
         </div>
 }
 
