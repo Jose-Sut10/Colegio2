@@ -8,16 +8,9 @@ const MainPagos = ()=>{
         {title: 'CVC:', tipo: 'text', id: 'cvc'}
         ];
 
-    const datosTarjeta = [
-        {title: '', clase: 'card-chip'},
-        {title: '#### #### ####', clase: 'card-number'},
-        {title: 'Nombre del Titular', clase: 'card-name'},
-        {title: 'MM/YY', clase: 'card-expiry'}
-    ];
-
     return <main className="contenido">
         <section className="containerContenido">
-            <FormularioPagos datos={datos} datosTarjeta={datosTarjeta}/>
+            <FormularioPagos datos={datos}/>
         </section>
     </main>
 }
