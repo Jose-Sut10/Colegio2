@@ -1,10 +1,10 @@
 import './App.css';
 import './reset.css';
-import Preincripcion from './components/preinscripcion/preinscripcion';
+import Pagos from './components/pagos/pagos';
 
 function App() {
   return (
-    <Preincripcion/>
+    <Pagos/>
   );
 }
 
