@@ -1,10 +1,10 @@
 import './App.css';
+import CarrerasDisponibles from './components/carreras/carreras';
 import './reset.css';
-import Pagos from './components/pagos/pagos';
 
 function App() {
   return (
-    <Pagos/>
+    <CarrerasDisponibles/>
   );
 }
 
