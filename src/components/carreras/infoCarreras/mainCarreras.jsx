@@ -3,7 +3,6 @@ import Ubicacion from '../../home/main/ubicacion/ubicacion';
 import './mainCarreras.css';
 
 const MainCarreras = ({datosCarreras})=>{
-
     const carrerasPerito = datosCarreras.filter((carrera) => carrera.name.toLowerCase().startsWith('perito'));
     const carrerasBachiller = datosCarreras.filter((carrera) => carrera.name.toLowerCase().startsWith('bachiller'));
 
@@ -15,14 +14,14 @@ const MainCarreras = ({datosCarreras})=>{
                     <div>peritos</div>
                     <ul className="listaCarreras">
                         {carrerasPerito.map((carrera, index) => (
-                        <li key={index}>{carrera.name}</li>))}
+                        <li key={index}><a href='/img/pensum.pdf' target='_blank'>{carrera.name}</a></li>))}
                     </ul>
                 </div>
                 <div className="carreraBachi">
                     <div>bachilleres</div>
                     <ul className="listaCarreras">
                         {carrerasBachiller.map((carrera, index) => (
-                        <li key={index}>{carrera.name}</li>))}
+                        <li key={index}><a href='/img/pensum.pdf' target='_blank'>{carrera.name}</a></li>))}
                     </ul>
                 </div>
                 <Ubicacion/>    

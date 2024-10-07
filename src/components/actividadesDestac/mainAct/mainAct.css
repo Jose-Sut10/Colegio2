@@ -1,0 +1,38 @@
+.contenidoAct{
+    padding: 20px 0;
+}
+
+.containerAct{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.itemAct{
+    width: 100%;
+    padding: 1rem;
+}
+
+.imgFondo{
+    height: 14rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.informacionItem{
+    padding: 1.4rem;
+    background-color: #150F5D;
+    color: #fff;
+}
+
+.informacionItem h2{
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.informacionItem P{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 1.4;
+}

@@ -1,10 +1,10 @@
 import './App.css';
-import CarrerasDisponibles from './components/carreras/carreras';
+import Actividades from './components/actividadesDestac/acctDest';
 import './reset.css';
 
-function App() {
+const App = ()=> {
   return (
-    <CarrerasDisponibles/>
+    <Actividades/>
   );
 }
 

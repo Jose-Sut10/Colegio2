@@ -41,6 +41,7 @@
     padding: 1.4rem 1rem;
 }
 
-.listaCarreras li{
-    font-size: 1.24rem;
+.listaCarreras li a{
+    font-size: 1.28rem;
+    color: #000;
 }
