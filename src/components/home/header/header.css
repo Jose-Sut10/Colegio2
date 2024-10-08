@@ -39,7 +39,7 @@
     box-shadow: 0 10px 25px rgb(0, 0, 0, 0.3);
 }
 
-.search input{
+.inputSearch{
     width: 0;
     background-color: transparent;
     border: none;
@@ -47,6 +47,6 @@
     z-index: 2;
 }
 
-.search:hover input{
+.search:hover .inputSearch{
     width: 6rem;
 }

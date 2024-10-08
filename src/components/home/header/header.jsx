@@ -23,7 +23,7 @@ const Header = ()=>{
                 <img src="/img/logo.png" alt="Logo Colegio"/>
                 
                 <div className="search">
-                    <input type="text" placeholder="Buscar" />
+                    <input className="inputSearch" type="text" placeholder="Buscar" />
                     <i className="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>

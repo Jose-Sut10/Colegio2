@@ -41,8 +41,8 @@ useEffect(() => {
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${images[currentIndex].img})`
     }}>
         <h2>{images[currentIndex].frase}</h2>
-        <i class="fa-solid fa-angles-left left" onClick={goToPrevious}></i>
-        <i class="fa-solid fa-angles-right next" onClick={goToNext}></i>
+        <i className="fa-solid fa-angles-left left" onClick={goToPrevious}></i>
+        <i className="fa-solid fa-angles-right next" onClick={goToNext}></i>
     </div>
 );
 }

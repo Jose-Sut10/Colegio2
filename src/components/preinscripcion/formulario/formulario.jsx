@@ -17,7 +17,7 @@ const Formulario = ({datos})=>{
             ) : (<input type={dato.tipo} />)}
         </div>
     ))}
-    <a href="https://"> Inscribirme</a>
+    <a href="/pagos"> Inscribirme</a>
 </form>
 }
 

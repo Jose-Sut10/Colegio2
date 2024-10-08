@@ -28,23 +28,23 @@ const Menu = () => {
                 <ul className="listaNav">
                     <li>
                         <i className="fa-regular fa-square-plus"></i>
-                        <a href='htpss//'>Acerca de</a>
+                        <a href='https'>Acerca de</a>
                     </li>
                     <li>
                         <i className="fa-regular fa-square-plus"></i>
-                        <a href='htpss//'>Carreras</a>
+                        <a href='/carreras'>Carreras</a>
                     </li>
                     <li>
                         <i className="fa-regular fa-square-plus"></i>
-                        <a href='htpss//'>Actividades</a>
+                        <a href='/actividades'>Actividades</a>
                     </li>
                     <li>
                         <i className="fa-regular fa-square-plus"></i>
-                        <a href='htpss//'>Inscripciones</a>
+                        <a href='/preinscripcion'>Inscripciones</a>
                     </li>
                     <li>
                         <i className="fa-regular fa-square-plus"></i>
-                        <a href='htpss//'>Equipo de desarrollo</a>
+                        <a href='https'>Equipo de desarrollo</a>
                     </li>
                 </ul>
             </div>

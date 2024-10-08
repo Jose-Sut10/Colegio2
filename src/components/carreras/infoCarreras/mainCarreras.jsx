@@ -12,14 +12,14 @@ const MainCarreras = ({datosCarreras})=>{
             <section className="containerCarreras">
                 <div className="carreraPerito">
                     <div>peritos</div>
-                    <ul className="listaCarreras">
+                    <ul className="carrerasDisp">
                         {carrerasPerito.map((carrera, index) => (
                         <li key={index}><a href='/img/pensum.pdf' target='_blank'>{carrera.name}</a></li>))}
                     </ul>
                 </div>
                 <div className="carreraBachi">
                     <div>bachilleres</div>
-                    <ul className="listaCarreras">
+                    <ul className="carrerasDisp">
                         {carrerasBachiller.map((carrera, index) => (
                         <li key={index}><a href='/img/pensum.pdf' target='_blank'>{carrera.name}</a></li>))}
                     </ul>

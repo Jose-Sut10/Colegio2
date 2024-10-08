@@ -14,7 +14,7 @@ const Main = ()=>{
             'Perito en Administración', 'Bachiller en Diseño Gráfico', 'Perito Contador']}
         ];
 
-    return <main className="contenido">
+    return <main className="contenidoPreinscripcion">
         <section className="containerContenido">
             <Formulario datos={datos}/>
         </section>
