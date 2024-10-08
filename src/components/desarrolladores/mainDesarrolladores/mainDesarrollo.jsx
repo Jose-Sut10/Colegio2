@@ -1,6 +1,20 @@
 import './devs.css';
 
 const MainDevs = ({datosDevs})=>{
+
+    const faFacebook = 'fa-brands fa-facebook iconoRedes';
+    const faInstagram = 'fa-brands fa-instagram iconoRedes';
+    const faWhatsapp = 'fa-brands fa-whatsapp iconoRedes';
+
+    const getIcon = (key) => {
+        switch (key) {
+            case 'fb': return faFacebook;
+            case 'ig': return faInstagram;
+            case 'wsp': return faWhatsapp;
+            default:return null;
+        }
+    };
+
     return <main className="mainDevs">
         <section className="containerDevs">
             <div className="descripcionDevs">
@@ -29,6 +43,24 @@ const MainDevs = ({datosDevs})=>{
                         <div className="caja2">
                             <p className='devName'>{dev.name}</p>
                             <p className='devWork'>{dev.puesto}</p>
+                        </div>
+                        
+                        <div className="redesDev">
+                            {dev.redes.map((redes)=>(
+                                Object.keys(redes).map((key, index)=>(
+                                <a href={redes[key]} key={index}>
+                                    <i className={getIcon(key)}></i>
+                                </a>))
+                            ))}
+                        </div>
+
+                        <div className="recorrido" style={{ backgroundColor: `${dev.colorVista}` }}>
+                            {dev.recorrido.map((recorrido, index) => (
+                                <div key={index} className="dato">
+                                    <i className={recorrido.title}></i>
+                                    <p>+{recorrido.cantidad}</p>
+                                    </div>
+                            ))}
                         </div>
                     </li>
                 ))}

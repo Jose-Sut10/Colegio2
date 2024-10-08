@@ -12,11 +12,15 @@
     gap: 1rem;
 }
 
-.descripcionDevs h2{
+.descripcionDevs h2, .equipoDevs h2{
     font-size: 1.4rem;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+}
+
+.equipoDevs h2{
+    padding: 1.4rem 0;
 }
 
 .descripcionDevs p{
@@ -29,10 +33,10 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 2.6rem;
 }
 
-.listaDevs li{
+.infoDev{
     width: calc(70% - 1rem);
     position: relative; 
     border-radius: 10px;
@@ -40,16 +44,19 @@
     overflow: hidden;
 }
 
+.infoDev:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
 .caja1{
-    padding: .4rem;
     text-align: center;
 }
 
 .caja1 img{
-    width: calc(8rem - 1rem);
+    width: calc(10rem - 1rem);
     border-radius: 50%;
-    border-radius: 10px 10px 0 0;
-    bottom: -40px;
+    bottom: -50px;
     position: relative
 }
 
@@ -57,13 +64,14 @@
     display: grid;
     gap: 1rem;
     min-height: 110px;
-    padding: 40px 20px;
+    padding: 40px 20px 10px;
     text-align: center;
     background-color: #fff;
     border-radius: 0 0 10px 10px;
 }
 
 .devName{
+    margin-top: 1rem;
     font-size: 1.4rem;
     color: #6278f7;
 }
@@ -71,4 +79,29 @@
 .devWork{
     color: #212121;
     font-size: 1.2rem;
+}
+
+.redesDev{
+    padding: .6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconoRedes{
+    font-size: 1.2rem;
+    color: #212121;
+}
+
+.recorrido{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dato{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
