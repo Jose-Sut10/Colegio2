@@ -1,3 +1,4 @@
+import Horarios from "../horarios/horarios";
 import Carreras from "./carreras/carreras";
 import Carrusel from "./carrusel/carrusel";
 import './main.css'
@@ -8,6 +9,7 @@ const Main = ({carreras})=>{
     return <main className="contenido">
         <Carrusel/>
         <section className="container">
+            <Horarios/>
             <Carreras carreras={carreras}/>
             <MisionVision/>
             <Ubicacion/>
