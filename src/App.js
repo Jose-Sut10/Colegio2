@@ -7,6 +7,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Pagos from './components/pagos/pagos';
 import Preincripcion from './components/preinscripcion/preinscripcion';
+import Devs from './components/desarrolladores/devs';
 
 const App = ()=> {
   return (
@@ -17,6 +18,7 @@ const App = ()=> {
           <Route path='/actividades' element={<Actividades/>} />
           <Route path='/pagos' element={<Pagos/>} />
           <Route path='/preinscripcion' element={<Preincripcion/>} />
+          <Route path='/devs' element={<Devs/>} />
         </Routes>
     </Router>
   );

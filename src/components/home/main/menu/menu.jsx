@@ -28,6 +28,10 @@ const Menu = () => {
                 <ul className="listaNav">
                     <li>
                         <i className="fa-regular fa-square-plus"></i>
+                        <a href='/'>Inicio</a>
+                    </li>
+                    <li>
+                        <i className="fa-regular fa-square-plus"></i>
                         <a href='https'>Acerca de</a>
                     </li>
                     <li>
@@ -44,7 +48,7 @@ const Menu = () => {
                     </li>
                     <li>
                         <i className="fa-regular fa-square-plus"></i>
-                        <a href='https'>Equipo de desarrollo</a>
+                        <a href='/devs'>Equipo de desarrollo</a>
                     </li>
                 </ul>
             </div>

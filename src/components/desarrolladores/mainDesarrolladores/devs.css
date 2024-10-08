@@ -1,0 +1,74 @@
+.mainDevs{
+    padding: 20px 0;
+}
+
+.containerDevs{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.descripcionDevs{
+    display: grid;
+    gap: 1rem;
+}
+
+.descripcionDevs h2{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.descripcionDevs p{
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.listaDevs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.listaDevs li{
+    width: calc(70% - 1rem);
+    position: relative; 
+    border-radius: 10px;
+    box-shadow: 8px 8px 15px rgb(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.caja1{
+    padding: .4rem;
+    text-align: center;
+}
+
+.caja1 img{
+    width: calc(8rem - 1rem);
+    border-radius: 50%;
+    border-radius: 10px 10px 0 0;
+    bottom: -40px;
+    position: relative
+}
+
+.caja2{
+    display: grid;
+    gap: 1rem;
+    min-height: 110px;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+.devName{
+    font-size: 1.4rem;
+    color: #6278f7;
+}
+
+.devWork{
+    color: #212121;
+    font-size: 1.2rem;
+}
