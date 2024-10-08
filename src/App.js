@@ -1,10 +1,10 @@
 import './App.css';
-import Actividades from './components/actividadesDestac/acctDest';
+import Home from './components/home/home';
 import './reset.css';
 
 const App = ()=> {
   return (
-    <Actividades/>
+    <Home/>
   );
 }
 

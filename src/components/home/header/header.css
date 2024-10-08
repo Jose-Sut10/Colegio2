@@ -29,3 +29,24 @@
 .navegacion > i:hover{
     cursor: pointer;
 }
+
+.search{
+    padding: .4rem;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 10px 25px rgb(0, 0, 0, 0.3);
+}
+
+.search input{
+    width: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    z-index: 2;
+}
+
+.search:hover input{
+    width: 6rem;
+}

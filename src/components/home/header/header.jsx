@@ -21,7 +21,11 @@ const Header = ()=>{
             <div className="navegacion">
                 <i className="fa-solid fa-bars" data-iconomenu></i>
                 <img src="/img/logo.png" alt="Logo Colegio"/>
-                <i className="fa-solid fa-magnifying-glass"></i>
+                
+                <div className="search">
+                    <input type="text" placeholder="Buscar" />
+                    <i className="fa-solid fa-magnifying-glass"></i>
+                </div>
             </div>
         </section>
     </header>
