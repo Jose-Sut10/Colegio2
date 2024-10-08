@@ -10,19 +10,21 @@ const MainCarreras = ({datosCarreras})=>{
         <main className="carreras">
             <Carrusel/>
             <section className="containerCarreras">
-                <div className="carreraPerito">
-                    <div>peritos</div>
-                    <ul className="carrerasDisp">
-                        {carrerasPerito.map((carrera, index) => (
-                        <li key={index}><a href='/img/pensum.pdf' target='_blank'>{carrera.name}</a></li>))}
-                    </ul>
-                </div>
-                <div className="carreraBachi">
-                    <div>bachilleres</div>
-                    <ul className="carrerasDisp">
-                        {carrerasBachiller.map((carrera, index) => (
-                        <li key={index}><a href='/img/pensum.pdf' target='_blank'>{carrera.name}</a></li>))}
-                    </ul>
+                <div className="opcionesCarrera">
+                    <div className="carreraPerito">
+                        <div>peritos</div>
+                        <ul className="carrerasDisp">
+                            {carrerasPerito.map((carrera, index) => (
+                            <li key={index}><a href='/img/pensum.pdf' target='_blank'>{carrera.name}</a></li>))}
+                        </ul>
+                    </div>
+                    <div className="carreraBachi">
+                        <div>bachilleres</div>
+                        <ul className="carrerasDisp">
+                            {carrerasBachiller.map((carrera, index) => (
+                            <li key={index}><a href='/img/pensum.pdf' target='_blank'>{carrera.name}</a></li>))}
+                        </ul>
+                    </div>
                 </div>
                 <Ubicacion/>    
             </section>

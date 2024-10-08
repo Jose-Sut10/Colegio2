@@ -1,7 +1,9 @@
 import './mainAct.css';
+import Carrusel from '../../home/main/carrusel/carrusel';
 
 const MainAct = ({datosActiv})=>{
     return <main className="contenidoAct">
+        <Carrusel/>
         <section className="containerAct">
             <ul className="listaAct">
                 {datosActiv.map((item,index)=>(

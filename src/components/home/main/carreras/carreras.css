@@ -23,6 +23,11 @@
     background-position: center;
 }
 
+.listaCarreras li:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
 .listaCarreras > li > a{
     width: 100%;
     height: 100%;
@@ -35,4 +40,10 @@
     text-decoration: none;
     font-size: 1.6rem;
     font-weight: bold;
+}
+
+@media screen and (min-width: 1024px){
+    .listaCarreras li{
+        width: 30%;
+    }
 }

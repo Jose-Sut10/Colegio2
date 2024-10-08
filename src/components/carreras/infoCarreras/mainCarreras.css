@@ -1,9 +1,13 @@
 .containerCarreras{
-    padding: 20px 0;
+    padding: 40px 0;
     width: 86vw;
     margin: 0 auto;
+}
+
+.opcionesCarrera{
     display: grid;
-    gap: 2rem;
+    gap: 3rem;
+    margin-bottom: 2rem;
 }
 
 .carreraBachi, .carreraPerito{
@@ -18,6 +22,7 @@
 }
 
 .carreraPerito div{
+    text-align: center;
     color: #fff;
     font-size: 1.4rem;
     font-weight: bold;
@@ -27,6 +32,7 @@
 }
 
 .carreraBachi div{
+    text-align: center;
     color: #fff;
     font-size: 1.4rem;
     font-weight: bold;
@@ -44,4 +50,14 @@
 .carrerasDisp li a{
     font-size: 1.28rem;
     color: #000;
+}
+
+@media screen and (min-width: 1024px){
+    .opcionesCarrera{
+        display: flex;
+        justify-content: space-between;
+    }
+    .carreraBachi, .carreraPerito{
+        width: 40%;
+    }
 }

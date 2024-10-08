@@ -1,15 +1,16 @@
-.contenidoAct{
-    padding: 20px 0;
-}
-
 .containerAct{
+    padding: 30px 0;
     width: 90vw;
     margin: 0 auto;
 }
 
+.listaAct{
+    display: grid;
+    gap: 1rem;
+}
+
 .itemAct{
     width: 100%;
-    padding: 1rem;
 }
 
 .imgFondo{
@@ -30,9 +31,24 @@
     line-height: 1.4;
 }
 
-.informacionItem P{
+.informacionItem p{
     margin-top: 1rem;
     font-size: 1.1rem;
     text-align: justify;
     line-height: 1.4;
+}
+
+@media screen and (min-width: 1024px){
+    .listaAct{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 3rem 1rem;
+    }
+    .itemAct{
+        width: 32%;
+    }
+    .informacionItem{
+        min-height: 20rem;
+    }
 }
