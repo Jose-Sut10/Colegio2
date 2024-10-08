@@ -48,7 +48,7 @@ const MainDevs = ({datosDevs})=>{
                         <div className="redesDev">
                             {dev.redes.map((redes)=>(
                                 Object.keys(redes).map((key, index)=>(
-                                <a href={redes[key]} key={index}>
+                                <a href={redes[key]} key={index} target="_blank" rel="noopener noreferrer">
                                     <i className={getIcon(key)}></i>
                                 </a>))
                             ))}
@@ -58,7 +58,7 @@ const MainDevs = ({datosDevs})=>{
                             {dev.recorrido.map((recorrido, index) => (
                                 <div key={index} className="dato">
                                     <i className={recorrido.title}></i>
-                                    <p>+{recorrido.cantidad}</p>
+                                    <p>{recorrido.cantidad}</p>
                                     </div>
                             ))}
                         </div>

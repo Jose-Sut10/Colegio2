@@ -1,5 +1,5 @@
 .mainDevs{
-    padding: 20px 0;
+    padding: 20px 0 4rem;
 }
 
 .containerDevs{
@@ -37,6 +37,10 @@
 }
 
 .infoDev{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #fff;
     width: calc(70% - 1rem);
     position: relative; 
     border-radius: 10px;
@@ -66,7 +70,6 @@
     min-height: 110px;
     padding: 40px 20px 10px;
     text-align: center;
-    background-color: #fff;
     border-radius: 0 0 10px 10px;
 }
 
@@ -104,4 +107,17 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+}
+
+@media screen and (min-width: 1024px){
+    .listaDevs{
+        justify-content: space-between;
+    }
+    .infoDev{
+        width: 25%;
+    }
+    .iconoRedes, .dato i{
+        font-size: 1.45rem;
+    }
+    
 }
