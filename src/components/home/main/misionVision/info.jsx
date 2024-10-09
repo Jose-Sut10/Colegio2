@@ -10,7 +10,7 @@ const MisionVision = () =>{
                 vidas de las personas, incrementar el bienestar de la sociedad y cuidar la calidad del
                 entorno donde se desarrollan, contribuyendo, de esa manera concreta, a construir y sostener
                 el bien general.</p>
-            <a href="https://youtube.com">Más información</a>
+            <a href="https://www.youtube.com/watch?v=6rLjbqbzx7s">Más información</a>
         </div>
         <div className="misVis">
                 <h3>Visión</h3>
@@ -20,7 +20,7 @@ const MisionVision = () =>{
                 vidas de las personas, incrementar el bienestar de la sociedad y cuidar la calidad del
                 entorno donde se desarrollan, contribuyendo, de esa manera concreta, a construir y sostener
                 el bien general.</p>
-            <a href="https://youtube.com">Más información</a>
+            <a href="https://www.youtube.com/watch?v=6rLjbqbzx7s">Más información</a>
         </div>
     </div>
 }
