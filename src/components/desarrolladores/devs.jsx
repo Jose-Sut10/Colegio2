@@ -41,7 +41,7 @@ const Devs = ()=>{
             colorVista: '#aee5bf'
         },
         {
-            img: '/img/angelica.jpg',
+            img: '/img/fredy.jpg',
             name: 'Fredy Romero Martínez Felipe',
             puesto: 'Desarrollador Back End',
             color: '130, 207, 250',
